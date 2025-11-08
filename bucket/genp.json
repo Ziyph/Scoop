@@ -9,8 +9,8 @@
   "shortcuts": [["GenP-v$version.exe", "GenP"]],
   "persist": "config.ini",
   "checkver": {
-      "useragent": "Mozilla/5.0",
-      "regex": "(?<=/GenP.v)[^-]+(?=-CGP.zip)",
+    "useragent": "Mozilla/5.0",
+    "regex": "(?<=/GenP.v)[^-]+(?=-CGP.zip)",
   }
   "autoupdate": {
     "url": "https://gen.paramore.su/GenP.v$version-CGP.zip",
