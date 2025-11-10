@@ -2,7 +2,7 @@
   "version": "1.0.9.7",
   "description": "Advanced Windows appearance editor",
   "homepage": "https://github.com/Abdelrhman-AK/WinPaletter",
-  "license": {1
+  "license": {
     "identifier": "MIT,CPOL-1.02",
     "url": "https://github.com/Abdelrhman-AK/WinPaletter/blob/master/LICENSE"
   },
