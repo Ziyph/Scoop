@@ -13,7 +13,7 @@
       "hash": "c2322bd465fd74ee46b17ed86de2fe97a7da1fc1403ed1397d5032c4cae28c21"
     }
   },
-  "bin": "equibop.exe",
+  "bin": ["equibop.exe", "Equibop"],
   "persist": "Data",
   "checkver": "github",
   "autoupdate": {
