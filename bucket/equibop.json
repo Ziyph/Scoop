@@ -16,9 +16,7 @@
   "bin": ["equibop.exe"],
   "shortcuts": [["equibop.exe", "Equibop"]],
   "persist": ["Data"],
-  "checkver": {
-    "github": "https://github.com/Equicord/Equibop"
-  },
+  "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
