@@ -21,6 +21,7 @@
         ]
     ],
     "persist": "Data",
+    "post_uninstall": "if (Test-Path \"$env:APPDATA\\equibop\") { Remove-Item -Recurse -Force \"$env:APPDATA\\equibop\" -ErrorAction SilentlyContinue }",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
@@ -41,6 +42,5 @@
                 }
             }
         }
-    },
-    "post_uninstall": "if (Test-Path \"$env:APPDATA\\equibop\") { Remove-Item -Recurse -Force \"$env:APPDATA\\equibop\" -ErrorAction SilentlyContinue }"
+    }
 }
