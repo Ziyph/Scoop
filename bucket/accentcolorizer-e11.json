@@ -9,12 +9,6 @@
     "url": "https://github.com/krlvm/AccentColorizer-E11/releases/download/v1.2.2/AccentColorizer-E11.exe",
     "hash": "010b318117f3cd0b61c0e32dc234cb5ada01efbc824a3b952377283947f6447d",
     "bin": "AccentColorizer-E11.exe",
-    "shortcuts": [
-        [
-            "AccentColorizer-E11.exe",
-            "AccentColorizer-E11"
-        ]
-    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/krlvm/AccentColorizer-E11/releases/download/v$version/AccentColorizer-E11.exe",
