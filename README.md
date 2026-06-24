@@ -12,4 +12,5 @@ Currently, this bucket offers the following software:
 - [AccentColorizer](https://github.com/WinExperiments/AccentColorizer)
 - [Equibop](https://github.com/Equicord/Equibop)
 - [masir](https://github.com/LGUG2Z/masir)
+- [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
 - [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter)
