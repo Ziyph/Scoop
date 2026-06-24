@@ -10,5 +10,6 @@ Currently, this bucket offers the following software:
 
 - [AccentColorizer-E11](https://github.com/krlvm/AccentColorizer-E11)
 - [AccentColorizer](https://github.com/WinExperiments/AccentColorizer)
+- [Equibop](https://github.com/Equicord/Equibop)
 - [masir](https://github.com/LGUG2Z/masir)
 - [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter)
