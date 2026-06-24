@@ -1,0 +1,46 @@
+{
+    "version": "3.2.0",
+    "description": "A custom Discord client offering enhanced performance and Linux support.",
+    "homepage": "https://github.com/Equicord/Equibop",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Equicord/Equibop/releases/download/v3.2.0/Equibop-3.2.0-win.zip",
+            "hash": "dbecb4105eae5ae2faa31d3bc3869d801d338c93b998e4d8496d9c9fbd2c76f0"
+        },
+        "arm64": {
+            "url": "https://github.com/Equicord/Equibop/releases/download/v3.2.0/Equibop-3.2.0-arm64-win.zip",
+            "hash": "c1fb4cc82568a7ea63811c2b8f1fb239c10634ff00442c3967c989a6334b502d"
+        }
+    },
+    "bin": "equibop.exe",
+    "shortcuts": [
+        [
+            "equibop.exe",
+            "Equibop"
+        ]
+    ],
+    "persist": "Data",
+    "post_uninstall": "if (Test-Path \"$env:APPDATA\\equibop\") { Remove-Item -Recurse -Force \"$env:APPDATA\\equibop\" -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-win.zip",
+                "hash": {
+                    "mode": "json",
+                    "url": "https://api.github.com/repos/Equicord/Equibop/releases/tags/v$version",
+                    "jsonpath": "$.assets[?(@.name == 'Equibop-$version-win.zip')].digest"
+                }
+            },
+            "arm64": {
+                "url": "https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-arm64-win.zip",
+                "hash": {
+                    "mode": "json",
+                    "url": "https://api.github.com/repos/Equicord/Equibop/releases/tags/v$version",
+                    "jsonpath": "$.assets[?(@.name == 'Equibop-$version-arm64-win.zip')].digest"
+                }
+            }
+        }
+    }
+}
