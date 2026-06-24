@@ -26,20 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-win.zip",
-                "hash": {
-                    "mode": "json",
-                    "url": "https://api.github.com/repos/Equicord/Equibop/releases/tags/v$version",
-                    "jsonpath": "$.assets[?(@.name == 'Equibop-$version-win.zip')].digest"
-                }
+                "url": "https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-win.zip"
             },
             "arm64": {
-                "url": "https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-arm64-win.zip",
-                "hash": {
-                    "mode": "json",
-                    "url": "https://api.github.com/repos/Equicord/Equibop/releases/tags/v$version",
-                    "jsonpath": "$.assets[?(@.name == 'Equibop-$version-arm64-win.zip')].digest"
-                }
+                "url": "https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-arm64-win.zip"
             }
         }
     }
