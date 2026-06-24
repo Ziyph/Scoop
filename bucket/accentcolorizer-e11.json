@@ -12,10 +12,5 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/krlvm/AccentColorizer-E11/releases/download/v$version/AccentColorizer-E11.exe",
-        "hash": {
-            "mode": "json",
-            "url": "https://api.github.com/repos/krlvm/AccentColorizer-E11/releases/latest",
-            "jsonpath": "$.assets[?(@.name == 'AccentColorizer-E11.exe')].digest"
-        }
     }
 }
