@@ -9,9 +9,19 @@
       "hash": "50bbd14437cd9c8ccc7b2dfb2148e3ba8b91d3682e671b7378998c9b2bc5e429"
     }
   },
+  "bin": "Froststrap.exe",
+  "shortcuts": [
+    [
+      "Froststrap.exe",
+      "Froststrap"
+    ]
+  ],
   "installer": {
     "script": "& \"$dir\\Froststrap-Setup.exe\" /S /D=$dir"
   },
+  "post_install": [
+    "Remove-Item \"$dir\\Froststrap-Setup.exe\" -Force -ErrorAction SilentlyContinue"
+  ],
   "uninstaller": {
     "script": "& \"$dir\\uninstall.exe\" /S"
   },
