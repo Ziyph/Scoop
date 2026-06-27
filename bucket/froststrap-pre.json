@@ -3,12 +3,6 @@
   "description": "A Bloxstrap/Fishstrap fork focused on performance and customization.",
   "homepage": "https://github.com/Froststrap/Froststrap",
   "license": "AGPL-3.0-or-later|MIT|Unlicense",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/Froststrap/Froststrap/releases/download/v2.0.0-beta.8/Froststrap-Setup.exe",
-      "hash": "50bbd14437cd9c8ccc7b2dfb2148e3ba8b91d3682e671b7378998c9b2bc5e429"
-    }
-  },
   "bin": "Froststrap.exe",
   "shortcuts": [
     [
@@ -16,14 +10,20 @@
       "Froststrap"
     ]
   ],
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Froststrap/Froststrap/releases/download/v2.0.0-beta.8/Froststrap-Setup.exe",
+      "hash": "50bbd14437cd9c8ccc7b2dfb2148e3ba8b91d3682e671b7378998c9b2bc5e429"
+    }
+  },
   "installer": {
-    "script": "& \"$dir\\Froststrap-Setup.exe\" /S /D=$dir"
+    "script": "& \"$fname\" /S /D=$dir"
   },
   "post_install": [
     "Remove-Item \"$dir\\Froststrap-Setup.exe\" -Force -ErrorAction SilentlyContinue"
   ],
   "uninstaller": {
-    "script": "& \"$dir\\uninstall.exe\" /S"
+    "script": "& \"$dir\\Uninstall.exe\" /S"
   },
   "checkver": {
     "github": "https://github.com/Froststrap/Froststrap",
