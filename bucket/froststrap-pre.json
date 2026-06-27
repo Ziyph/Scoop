@@ -16,7 +16,7 @@
     "script": "Start-Process \"$dir\\Froststrap.exe\" -Wait -Args @('-uninstall', '-quiet');"
   },
   "checkver": {
-    "github": "https://github.com/Orbmu2k/nvidiaProfileInspector",
+    "github": "https://github.com/Froststrap/Froststrap",
     "regex": "releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
