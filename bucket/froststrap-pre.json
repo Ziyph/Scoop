@@ -10,8 +10,8 @@
     }
   },
   "installer": {
-  "script": "& \"$dir\\Froststrap-Setup.exe\" /S /D=$dir"
-}
+    "script": "& \"$dir\\Froststrap-Setup.exe\" /S /D=$dir"
+  },
   "uninstaller": {
     "script": "& \"$dir\\uninstall.exe\" /S"
   },
