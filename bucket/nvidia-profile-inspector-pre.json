@@ -1,6 +1,6 @@
 {
   "version": "3.0.1.13",
-  "description": "View detailed info about your nVidia graphics card.",
+  "description": "A tool for editing NVIDIA driver profiles and hidden settings.",
   "homepage": "https://github.com/Orbmu2k/nvidiaProfileInspector",
   "license": {
         "identifier": "MIT",
