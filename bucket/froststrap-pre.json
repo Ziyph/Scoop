@@ -10,10 +10,10 @@
     }
   },
   "installer": {
-    "script": "if ($cmd -eq 'update') { & \"$dir\\Froststrap-Setup.exe\" -quiet -upgrade } else { & \"$dir\\Froststrap-Setup.exe\" -quiet }"
-  },
+  "script": "& \"$dir\\Froststrap-Setup.exe\" /S /D=$dir"
+}
   "uninstaller": {
-    "script": "& \"$dir\\Froststrap-Setup.exe\" -uninstall -quiet"
+    "script": "& \"$dir\\uninstall.exe\" /S"
   },
   "checkver": {
     "github": "https://github.com/Froststrap/Froststrap",
