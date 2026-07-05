@@ -1,22 +1,25 @@
 {
-  "version": "3.0.1.13",
-  "description": "A tool for editing NVIDIA driver profiles and hidden settings.",
-  "homepage": "https://github.com/Orbmu2k/nvidiaProfileInspector",
-  "license": {
+    "version": "3.0.2.1",
+    "description": "A tool for editing NVIDIA driver profiles and hidden settings.",
+    "homepage": "https://github.com/Orbmu2k/nvidiaProfileInspector",
+    "license": {
         "identifier": "MIT",
         "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/blob/master/LICENSE"
     },
-  "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v3.0.1.13/nvidiaProfileInspector.zip",
-  "hash": "6624845bd387c3b9525c446c254822982279901ac31ece0c7234cd5e971bbe87",
-  "bin": "nvidiaProfileInspector.exe",
-  "shortcuts": [
-    ["nvidiaProfileInspector.exe", "nVidia Profile Inspector"]
-  ],
-  "checkver": {
-    "github": "https://github.com/Orbmu2k/nvidiaProfileInspector",
-    "regex": "releases/tag/v([\\d.]+)"
-  },
-  "autoupdate": {
-    "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v$version/nvidiaProfileInspector.zip"
-  }
+    "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v3.0.2.1/nvidiaProfileInspector.zip",
+    "hash": "88dcf3514111e8de630688467c03c36d8c2a8ad9ebc8073f27c069f82b75bb40",
+    "bin": "nvidiaProfileInspector.exe",
+    "shortcuts": [
+        [
+            "nvidiaProfileInspector.exe",
+            "nVidia Profile Inspector"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Orbmu2k/nvidiaProfileInspector",
+        "regex": "releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v$version/nvidiaProfileInspector.zip"
+    }
 }
