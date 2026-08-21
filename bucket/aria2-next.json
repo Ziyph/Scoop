@@ -18,24 +18,15 @@
     ["aria2-next.exe", "aria2c"]
   ],
   "checkver": {
-    "github": "https://github.com/AnInsomniacy/aria2-next",
-    "regex": "v(?[0-9]+\\.\\.[0-9]+)"
+    "github": "https://github.com/AnInsomniacy/aria2-next"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/AnInsomniacy/aria2-next/releases/download/v$version/aria2-next-$version-windows-x86_64.exe",
-        "hash": {
-          "url": "https://github.com/AnInsomniacy/aria2-next/releases/download/v$version/aria2-next-$version-checksums.sha256",
-          "regex": "windows-x86_64.exe (?<hash>[0-9a-f]{64})"
-        }
+        "url": "https://github.com/AnInsomniacy/aria2-next/releases/download/v$version/aria2-next-$version-windows-x86_64.exe"
       },
       "arm64": {
-        "url": "https://github.com/AnInsomniacy/aria2-next/releases/download/v$version/aria2-next-$version-windows-arm64.exe",
-        "hash": {
-          "url": "https://github.com/AnInsomniacy/aria2-next/releases/download/v$version/aria2-next-$version-checksums.sha256",
-          "regex": "windows-arm64.exe (?<hash>[0-9a-f]{64})"
-        }
+        "url": "https://github.com/AnInsomniacy/aria2-next/releases/download/v$version/aria2-next-$version-windows-arm64.exe"
       }
     }
   }
