@@ -15,7 +15,10 @@
             "WinPaletter"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Abdelrhman-AK/WinPaletter",
+        "regex": "releases/tag/v([\\d.]+)"
+    },
     "autoupdate": {
         "url": "https://github.com/Abdelrhman-AK/WinPaletter/releases/download/v$version/WinPaletter.zip"
     }
