@@ -18,15 +18,15 @@
         "# Windhawk needs to apply permissive access attributes to AppData folder in order to work properly",
         "Start-Process -FilePath \"$dir\\$fname\" -ArgumentList @('/S', '/portable', \"/D=$dir\") -Wait",
         "Remove-Item -Path \"$dir\\$fname\" -Force",
-        "startmenu_shortcut \"$dir\\windhawk.exe\" 'Windhawk (Pre-release)' $null $null $global",
-        "shim \"$dir\\windhawk.exe\" $global 'windhawk-pre'"
+        "startmenu_shortcut \"$dir\\windhawk.exe\" 'Windhawk' $null $null $global",
+        "shim \"$dir\\windhawk.exe\" $global 'windhawk'"
     ],
     "persist": "AppData",
     "post_uninstall": [
         "# Remove shortcut and shim",
-        "Write-Host \"`nRemoving shortcut $(friendly_path \"$(shortcut_folder $global)\\Windhawk (Pre-release).lnk\")\"",
-        "Remove-Item \"$(shortcut_folder $global)\\Windhawk (Pre-release).lnk\" -Force -ErrorAction Ignore",
-        "rm_shim 'windhawk-pre' \"$(shimdir $global)\""
+        "Write-Host \"`nRemoving shortcut $(friendly_path \"$(shortcut_folder $global)\\Windhawk.lnk\")\"",
+        "Remove-Item \"$(shortcut_folder $global)\\Windhawk.lnk\" -Force -ErrorAction Ignore",
+        "rm_shim 'windhawk' \"$(shimdir $global)\""
     ],
     "checkver": {
         "url": "https://api.github.com/repos/ramensoftware/windhawk/releases",
