@@ -15,6 +15,7 @@ Currently, this bucket offers the following software:
 - [Froststrap](https://github.com/Froststrap/Froststrap)
 - [hok](https://github.com/maboloshi/hok)
 - [masir](https://github.com/LGUG2Z/masir)
+- [Modrinth App](https://github.com/modrinth/code/tree/main/apps/app)
 - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
 - [Windhawk](https://github.com/ramensoftware/windhawk)
 - [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter)
