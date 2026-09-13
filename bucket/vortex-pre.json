@@ -1,6 +1,6 @@
 {
     "version": "2.7.0-beta.2",
-    "description": "Open-source mod manager from Nexus Mods",
+    "description": "Open-source mod manager from Nexus Mods.",
     "homepage": "https://www.nexusmods.com/about/vortex/",
     "license": {
         "identifier": "GPL-3.0-or-later",
