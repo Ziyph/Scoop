@@ -19,5 +19,6 @@ Currently, this bucket offers the following software:
 - [Modrinth App](https://github.com/modrinth/code/tree/main/apps/app)
 - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
 - [Vortex Mod Manager](https://www.nexusmods.com/vortex)
+- [Wabbajack](https://github.com/wabbajack-tools/wabbajack)
 - [Windhawk](https://github.com/ramensoftware/windhawk)
 - [WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter)
