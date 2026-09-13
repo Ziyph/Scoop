@@ -11,6 +11,7 @@ Currently, this bucket offers the following software:
 - [AccentColorizer-E11](https://github.com/krlvm/AccentColorizer-E11)
 - [AccentColorizer](https://github.com/WinExperiments/AccentColorizer)
 - [aria2-next](https://github.com/AnInsomniacy/aria2-next)
+- [Corsair iCUE](https://www.corsair.com/icue)
 - [Equibop](https://github.com/Equicord/Equibop)
 - [Froststrap](https://github.com/Froststrap/Froststrap)
 - [hok](https://github.com/maboloshi/hok)
