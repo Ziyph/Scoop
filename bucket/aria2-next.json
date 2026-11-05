@@ -34,6 +34,10 @@
             "arm64": {
                 "url": "https://github.com/AnInsomniacy/aria2-next/releases/download/v$version/aria2-next-$version-windows-arm64.exe"
             }
+        },
+        "hash": {
+            "url": "$baseurl/aria2-next-$version-checksums.sha256",
+            "regex": "$sha256\\s+$basename"
         }
     }
 }
