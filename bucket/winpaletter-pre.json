@@ -16,8 +16,9 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/Abdelrhman-AK/WinPaletter",
-        "jsonpath": "$[0].tag_name"
+        "url": "https://api.github.com/repos/Abdelrhman-AK/WinPaletter/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "v?([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/Abdelrhman-AK/WinPaletter/releases/download/v$version/WinPaletter.zip"

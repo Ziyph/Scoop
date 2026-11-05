@@ -16,8 +16,9 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/Orbmu2k/nvidiaProfileInspector",
-        "jsonpath": "$[0].tag_name"
+        "url": "https://api.github.com/repos/Orbmu2k/nvidiaProfileInspector/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "v?([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v$version/nvidiaProfileInspector.zip"
