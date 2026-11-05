@@ -1,0 +1,45 @@
+{
+    "version": "0.45.0-nightly.20261029",
+    "description": "Native music streaming client for Spotify, Apple Music, YouTube Music, Tidal, Deezer, Subsonic and local files. Tracks the nightly pre-release.",
+    "homepage": "https://sonorahq.org",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://github.com/sonorahq/sonora/blob/main/COPYING"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sonorahq/sonora/releases/download/nightly/sonora-nightly-x86_64-pc-windows-msvc.exe#/sonora.exe",
+            "hash": "e36fa458139b88fd881f7f8a26b8317f7d12a415bc8d2856d399d3047718fa09"
+        },
+        "arm64": {
+            "url": "https://github.com/sonorahq/sonora/releases/download/nightly/sonora-nightly-aarch64-pc-windows-msvc.exe#/sonora.exe",
+            "hash": "8d91b5f037e6c3b01309934622cc1f4474e4c8046409781a499056c22e21e4f5"
+        }
+    },
+    "bin": "sonora.exe",
+    "shortcuts": [
+        [
+            "sonora.exe",
+            "Sonora"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/sonorahq/sonora/releases/tags/nightly",
+        "jsonpath": "$.name",
+        "regex": "([\\d.]+-nightly\\.\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sonorahq/sonora/releases/download/nightly/sonora-nightly-x86_64-pc-windows-msvc.exe#/sonora.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/sonorahq/sonora/releases/download/nightly/sonora-nightly-aarch64-pc-windows-msvc.exe#/sonora.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS",
+            "regex": "$sha256\\s+$basename"
+        }
+    }
+}

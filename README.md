@@ -18,6 +18,7 @@ Currently, this bucket offers the following software:
 - [masir](https://github.com/LGUG2Z/masir)
 - [Modrinth App](https://github.com/modrinth/code/tree/main/apps/app)
 - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
+- [Sonora](https://github.com/sonorahq/sonora)
 - [Vortex Mod Manager](https://www.nexusmods.com/vortex)
 - [Wabbajack](https://github.com/wabbajack-tools/wabbajack)
 - [Windhawk](https://github.com/ramensoftware/windhawk)
