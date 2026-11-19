@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/ziyph/scoop/actions/workflows/ci.yml/badge.svg)](https://github.com/ziyph/scoop/actions/workflows/ci.yml) [![Excavator](https://github.com/ziyph/scoop/actions/workflows/excavator.yml/badge.svg)](https://github.com/ziyph/scoop/actions/workflows/excavator.yml)
 
-This is my personal [Scoop](https://scoop.sh/) bucket for software unavailable in Scoop's official buckets.
+My [Scoop](https://scoop.sh/) bucket for software unavailable in Scoop's official buckets.
 
 ## Software
 
